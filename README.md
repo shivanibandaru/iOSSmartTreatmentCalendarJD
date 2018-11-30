@@ -1,19 +1,34 @@
 # Smart Treatment Calendar iOS
 
-Installation Guide:
+## Release Notes:
 
-In order to run this application, you need to first make sure that your laptop is set up properly:
+### This is version 1.0 of our application. 
+
+*There are no bug fixes to be reported as part of this submission. Some of the bugs in this version of the application include*:
+
+Lack of proper database integration- the app currently uses internal phone storage and caches instead of a remote database. This is currently in the works.
+
+Security vulnerabilites with logging in and out. This should be fixed with the implementation of the database.
+
+Complete filtering functionality is not yet complete, but the app offers a watered down filtering of a trainer's patients as of now. Again, should be fixed with implementation of the database.
+
+## Installation Guide:
+
+### In order to run this application, you need to first make sure that your laptop is set up properly:
+
 Have-
-  Any Apple machine
+  
+  - **Any Apple machine**
+  
 Install-  
-  XCode 11
-  Swift 4
+  - **XCode 11**
+  - **Swift 4**
 
 Once you have what you need to download the application files, you need to download the local dependencies and pods as this application uses CocoaPods
 
 In terminal, direct to the project files and type "pod install." The podfile contains all the dependencies you need and this should take care of anything you would need to download. 
 
-Once you have everything installed, open up the project files and located "Appt.wkspce." NOTE- this application will not work if you simply press on the project and open it in XCode- you need to press on the workspace. Once those files open up, select the iOS type you want to run the app on and press "Run". A simulator with the application should pop up. 
+Once you have everything installed, open up the project files and located "Appt.xcworkspace" NOTE- this application will not work if you simply press on the project and open it in XCode- you need to press on the workspace. Once those files open up, select the iOS type you want to run the app on and press "Run". A simulator with the application should pop up. 
 
 
   
